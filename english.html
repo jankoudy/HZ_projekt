@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler Jan Havlasa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+
+<body id="top"></body>
+    <a href="index.html" class="lang-switcher" title="Přepnout do češtiny">
+        <svg class="flag-svg" viewBox="0 0 900 600" width="20" height="15">
+            <rect fill="#fff" width="900" height="300"/>
+            <rect fill="#d7141a" y="300" width="900" height="300"/>
+            <path fill="#11457e" d="M0 0l450 300L0 600z"/>
+        </svg>
+        <span>Čeština</span>
+    </a>
+
+    <!-- =========================================================
+         ÚVODNÍ ČÁST
+         Vyměň obrázek images/hero.jpg za vlastní titulní fotografii.
+         ========================================================= -->
+    <header class="hero">
+        <img src="images/uvodka_upraveno.png" alt="Jan Havlasa">
+        <div class="hero-overlay">
+            <h1>Jan Havlasa</h1>
+            <p>Follow in the footsteps of the traveller Jan Havlasa</p>
+        </div>
+    </header>
+
+    <main>
+        <aside class="side-menu">
+            <a href="#top" class="side-menu-title">
+                <h2>Jan Havlasa</h2>
+                <p>1883 - 1964</p>
+            </a>
+            <nav class="chapter-menu">
+
+                <a href="#kapitola-1">
+                    <span class="chapter-year">1904</span>
+                    <span class="chapter-name">Study</span>
+                </a>
+
+                <a href="#kapitola-2">
+                    <span class="chapter-year">1905-1909</span>
+                    <span class="chapter-name">Traveling around the USA</span>
+                </a>
+
+                <a href="#kapitola-3">
+                    <span class="chapter-year">1910</span>
+                    <span class="chapter-name">Marriage to Elsie</span>
+                </a>
+
+                <a href="#kapitola-4">
+                    <span class="chapter-year">1910</span>
+                    <span class="chapter-name">Honeymoon</span>
+                </a>
+
+                <a href="#kapitola-5">
+                    <span class="chapter-year">1912</span>
+                    <span class="chapter-name">Travel around the world</span>
+                </a>
+
+                <a href="#kapitola-6">
+                    <span class="chapter-year">1916</span>
+                    <span class="chapter-name">Anti-Austrian file</span>
+                </a>
+
+                <a href="#kapitola-7">
+                    <span class="chapter-year">1920</span>
+                    <span class="chapter-name">Ambassador to Brazil</span>
+                </a>
+
+                <a href="#kapitola-8">
+                    <span class="chapter-year">1926</span>
+                    <span class="chapter-name">Opium Commissioner</span>
+                </a>
+
+                <a href="#kapitola-9">
+                    <span class="chapter-year">1930s</span>
+                    <span class="chapter-name">Frequent moves</span>
+                </a>
+
+                <a href="#kapitola-10">
+                    <span class="chapter-year">1943</span>
+                    <span class="chapter-name">Ambassador to Chile</span>
+                </a>
+
+                <a href="#kapitola-11">
+                    <span class="chapter-year">1950s</span>
+                    <span class="chapter-name">California</span>
+                </a>
+
+                <a href="#kapitola-12">
+                    <span class="chapter-year">1964</span>
+                    <span class="chapter-name">The rest of life</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- =====================================================
+             KAPITOLY
+             Každá kapitola má:
+             - text
+             - audio
+             - fotogalerii
+             - tlačítko zpět na časovou osu
+
+             Pro další kapitolu celý <article> jednoduše zkopírujte
+             a změňte jeho id.
+             ===================================================== -->
+
+        <section class="chapters">
+
+            <article class="chapter" id="kapitola-1">
+
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            I was born in 1883 in Teplice, in northern Bohemia. In 1904, I am 21 years old. I am
+                            a student at the Faculty of Arts, and have travelled throughout Bohemia, Slovakia and Europe. 
+                            I publish short stories about my travels. Národní listy has therefore offered me the position 
+                            of an unpaid reporter at the World’s Fair in St Louis in the United States of America.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>First Tatra Short Stories (title page), summer 1901</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Excerpt from the short story ‘Sea, Sea’ – First Tatra Short Stories, 1903–1904</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Kobzáň’s Mountain Lodge in Podbansko, 1901–1904</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Jan Havlasa’s literary earnings, 1901–1902</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Postcard from Saint Louis, 1904</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>The World’s Fair in Saint Louis, 1904</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>The poem ‘The Clang of Sabres’, 1904</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>An article by Jan Havlasa, 1905</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Travelling around Europe and the World’s Fair in St Louis
+                    </div>
+                </div>
+
+                <video controls>
+                    <source src="video/pokus.mp4" type="audio/mpeg">
+                    Váš prohlížeč nepodporuje přehrávání videa.
+                </video>
+                <div class="gallery-title">
+                    Video clip
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-2">
+
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            After the exhibition ends, I’ll be staying in the US and travelling around Nebraska, 
+                            California, Texas and Arizona. There, I’ll be documenting the lives of my compatriots.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>By a postbox on the prairie</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Compatriots in Nebraska, late 19th century</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>On Santa Monica Beach, 1906</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Travelling across the USA, 1905–1906</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Postcard: University of Nebraska, 1909</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Travelling around the USA
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Blooming nopales, caption</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Blooming nopales, excerpt 1</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Blooming nopales, excerpt 2</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Blooming nopales, excerpt 3</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Blooming Nopales, Fragments of Life 1904–1928, Jan Havlasa, 1929 edition
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-3">
+
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            I was championing the idea of an independent Czech state, and as a result I became acquainted 
+                            with the Herman family from Los Angeles. And it was this very family that proved to be my 
+                            undoing. For I fell in love with Adolf Herman’s daughter, Elsie Herman. In 1910, I married 
+                            Elsie.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Postcard from Los Angeles, 1910</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Aviation Day, Los Angeles, 1910</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>With Adolf Herman’s family, 1907</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>A trip to Elysian Park, 1910</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>A trip to Arizona with the Herman family, 1910</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>In the Land of Eternal Spring, 1909</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Jan and Elsie in front of their house in Los Angeles, 1909</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>The newlyweds, the Havlas family, 1910</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 9"><figcaption>Studio portrait, 1910</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        With Adolf Herman’s family and his wife Elsie
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-4">
+
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            We’re setting off on our honeymoon to the Pacific that very same year for six months.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>A Tahitian family of a French civil servant, 1910</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Tahiti, 1910</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Tahiti, Jan Havlasa with a Kodak camera, 1910</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>The island of Moorea, Tahiti, 1910</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>The island of Taha’a, 1910</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Journey across Tahiti to Lake Vaihiria, 1910</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Postcard from Tahiti, painting by Antonín Bruner, 1917</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>The Abyss of Pleasure, Jan Havlasa, 1929</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        A honeymoon in the Pacific
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Excerpt from a lecture</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Excerpt from a lecture</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Excerpt from a lecture</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Excerpt from a lecture</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Excerpt from a lecture</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Lecture: Nature and People in Tahiti
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-5">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         In 1912, we set sail on a round-the-world voyage. Over the course of the year, we travelled 
+                         through Japan, China, Malaysia, Vietnam, India and a large part of Europe. The material gathered, 
+                         particularly in Japan, later formed the basis for the books *The Shattered Rainbow* and *Ghosts 
+                         and Miracles*. We returned to Prague in 1913.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>On board the Persia en route to China and Japan, 1912</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>At the rim of the crater of Mount Fuji, 1912</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>At his desk in Yokohama, 1912</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>The Havlas family in the window of a Japanese country hotel, 1912</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Mount Nokogiri, Japan, 1912</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Article in the magazine Světozor, Jan Havlasa, 1927</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>India, 1913</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Shanghai, China, 1913</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 9"><figcaption>A Shattered Rainbow, Jan Havlasa, 1932</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 10"><figcaption>Ghosts and Miracles, Jan Havlasa, 1934</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Travelling in South-East Asia
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Postcard</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>In Bohemia, 1914</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Greetings from Czech writers on an excursion, 1913</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Světlá nad Sázavou, 1914</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Around the World (Part 1), Jan Havlasa, 1914</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Around the World (Part 2), Jan Havlasa, 1914</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Through the Sierra Nevada, Jan Havlasa, 1905</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        In Bohemia
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Short story ‘Eight on a Cow’ – Part 1</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Short story ‘Eight on a Cow’ – Part 2</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Short story ‘Eight on a Cow’ – Part 3</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Short story ‘Eight on a Cow’ – Part 4</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Short story ‘Eight on a Cow’ – Part 5</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        The short story *Eight on a Cow*, by Jan Havlasa, 1914
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-6">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         I then undertook a year-long lecture tour of Bohemia, turning our travel experiences into a 
+                         literary work. I also began studying natural sciences at Charles University. Politically, I 
+                         continued to campaign for the establishment of an independent Czech state. In 1916, I was 
+                         sentenced to a year’s imprisonment for an anti-Austrian pamphlet.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>An extract from *Národní listy*, 1913</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Invitation to a lecture, Dvůr Králové, 1913</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Excerpt from an article on lectures accompanied by slide projections, 1925</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Invitation to a lecture on Japan, 1917</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Excerpt from the lecture *First Impressions in the Land of the Rising Sun*, 1913</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Greeting from a lecture in Bystřice pod Hostýnem, 1913</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Greeting from a lecture in Uherské Hradiště, 1914</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        A lecture tour of Bohemia and Moravia
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>*Malayan Summer* (title page), Jan Havlasa, 1926</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>*Malayan Summer* (excerpt 1), Jan Havlasa, 1926</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>*Malayan Summer* (excerpt 2), Jan Havlasa, 1926</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>The Relationship between Settlement Policy and the World War (title page), Jan Havlasa, 1914</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>The Relationship between Settlement Policy and the World War (introduction), Jan Havlasa, 1914</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Invitation to the National Theatre, 1918</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Creation
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-7">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         Following the establishment of an independent Czechoslovakia in 1918, I was appointed a member 
+                         of the Czechoslovak delegation to the peace negotiations in Paris. In 1920, my wife and I left 
+                         for Brazil for four years. There, I was appointed extraordinary envoy. However, I did not give 
+                         up writing novels. I also became a great admirer of Brazilian nature.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Oath of Office</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>In front of the Catete Palace, Rio de Janeiro, 1920</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>The Czechoslovak Legation building, Brazil, 1920</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Mr and Mrs Havlas on the legation’s terrace, 1920</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>The Havlas family on an outing at Fazenda Atalaya, 1921</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>The diplomatic corps, Rio de Janeiro, 1920</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Above Copacabana Beach, the 1920s</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Rio de Janeiro, 1922</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 9"><figcaption>Ferradora, Brazil, 1922</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 10"><figcaption>On an outing in the Rio de Janeiro area, 1921</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Ambassador Extraordinary and Plenipotentiary to Brazil
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Article: ‘The Czechoslovak Envoy Takes His Leave’ (Part 1), 1924</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Article: ‘The Czechoslovak Envoy Takes His Leave’ (Part 2), 1924</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Letter from Ema Destinová (Part 1), 1929</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Letter from Ema Destinová (Part 2), 1929</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Letter from Ema Destinová (Part 3), 1929</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Letter from Dr František Smotlacha, 1929</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Correspondence from the late 1920s
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-8">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                          The Opium Commission, established by the League of Nations in Geneva, approached me in 1929 
+                          and asked me to become one of its commissioners. I therefore travelled to East Asia for nine 
+                          months to investigate the issue of opium and its routes into Europe. This is the first time I 
+                          have travelled without my wife, but I write to her every day.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Members of the Opium Commission, Manchuria, 1929</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>The Opium Commission questioning miners, Indonesia, 1929</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Doctors at tables examining opium smokers, 1929</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Opium smokers awaiting questioning, 1929</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Clogs used for opium smuggling, 1929</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Manila, Philippines, 1930</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Around the World in Search of Opium, Jan Havlasa, 1932</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Cheque for Jan Havlasa, 1929</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        A member of the Opium Commission
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Postcard from Batavia (now Jakarta)</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Postcard from Burma</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Postcards from Singapore, Part 1</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Postcards from Singapore, Part 2</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Correspondence with my wife
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-9">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         Before the start of the Second World War, Elsie and I moved house several times. We lived 
+                         successively in Paris, Monaco and Los Angeles.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>In a flat in Paris, the 1930s</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Monaco, the 1930s</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Advertisement for works by Jan Havlasa</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Before the outbreak of the Second World War
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-10">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         During the war, I supported the resistance movement and the government-in-exile; I gave lectures 
+                         and published articles in newspapers for the Czech diaspora. In 1943, I was appointed Ambassador 
+                         of the Czechoslovak Republic to Chile. There, too, I continued my work for the resistance, 
+                         raising funds for the Czechoslovak Red Cross and the government-in-exile in London. Thanks to 
+                         Czechoslovakia’s good reputation amongst foreign diplomats and the Chilean government, President 
+                         Beneš’s first attempt to recall me failed. I was not finally recalled until 1947.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>With the President of Chile, 1943</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Santiago de Chile, 1943</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>The border between Argentina and Chile, 1943–1947</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Lake and Villarica Volcano, Chile, 1943–1947</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Speech on the occasion of Edvard Beneš’s 60th birthday, 1944</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Lidice Park, Santiago de Chile, 1944</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Lidice Park, Santiago de Chile, 1944</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Diplomatic corps, Santiago de Chile, 1943–1947</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 9"><figcaption>Mr and Mrs Havlasa at the harbour, 1940s</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Ambassador to Chile
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Jan Havlasa’s diplomatic passport, 1944</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Appointment to office, 1943</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Correspondence with family, 1940s</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Correspondence with his brother Vladimír, a member of the government-in-exile, 1944</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Telegram, 1945</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Letter to the Prime Minister and the Speaker of the Chamber of Deputies – Part 1, 1947</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Letter to the Prime Minister and the Speaker of the Chamber of Deputies – Part 2, 1947</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Draft article, 1944</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Documents and correspondence during the Second World War
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-11">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            After the war, my wife and I settled in the United States. We were both disillusioned by 
+                            the post-war direction of Czechoslovak politics. I was refused citizenship in America, but 
+                            I was able to stay here thanks to my wife Elsie’s American citizenship. I continue to write 
+                            and travel with my wife through California’s national parks.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>The Colorado Desert, 1954</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>The Sierra Nevada, 1955</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>The San Gabriel Mountains, 1956</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>The Sierra Nevada, 1955</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>The Havlasas’ house in Los Angeles, 1948</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>At his home, 1953</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>In front of the Havlasas’ house in Los Angeles, 1955</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Mock-up of a travel diary, 1950s</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Travelling through California’s national parks
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>The eternally young Jan Havlasa in his seventies, Part 1</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>The eternally young Jan Havlasa in his seventies, Part 2</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>The eternally young Jan Havlasa in his seventies, Part 3</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>The eternally young Jan Havlasa in his seventies, Part 4</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Have we forgotten?</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Articles by Karel Domin and A. C. Nor
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-12">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         Following the death of my wife in 1957, I have shut myself away from the world in my home. 
+                         On rare occasions, I meet up with and correspond with a few friends. I am also writing my memoirs.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Jan Havlasa, 1958</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Jan Havlasa, 1958</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Jan Havlasa, 1958</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Envelope from correspondence, 1959</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Article on the death of Jan Havlasa, LA Times, 1964</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Obituary, 1964</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Recent years
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Jan Havlasa – an interactive story</p>
+    </footer>
+
+
+        <!-- =========================================================
+     LIGHTBOX
+     ========================================================= -->
+
+    <div class="lightbox" id="lightbox">
+
+        <!-- Zavření -->
+        <button class="lightbox-close" id="lightbox-close">
+            &times;
+        </button>
+
+        <!-- Předchozí -->
+        <button class="lightbox-prev" id="lightbox-prev">
+            &#10094;
+        </button>
+
+        <!-- Fotografie -->
+        <img class="lightbox-image" id="lightbox-image" src="" alt="">
+
+        <!-- Následující -->
+        <button class="lightbox-next" id="lightbox-next">
+            &#10095;
+        </button>
+
+        <!-- Popisek -->
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+
+    </div>
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>

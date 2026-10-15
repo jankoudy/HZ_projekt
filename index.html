@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cestovatel Jan Havlasa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+
+<body id="top"></body>
+    <a href="english.html" class="lang-switcher" title="Switch to English">
+        <svg class="flag-svg" viewBox="0 0 640 480" width="20" height="15"><path fill="#012169" d="M0 0h640v480H0z"/><path fill="#FFF" d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 299 80 480H0v-60l239-179L0 62V0h75z"/><path fill="#C8102E" d="m424 281 216 159v40L369 281h55zm-184 20L6 39v-41l271 202h-31zM640 0v3L391 191l49 39L640 44V0zM0 480l247-183-49-37L0 436v44z"/><path fill="#FFF" d="M241 0v480h160V0H241zM0 160v160h640V160H0z"/><path fill="#C8102E" d="M0 193v94h640v-94H0zM273 0v480h94V0h-94z"/></svg>
+        <span>English</span>
+    </a>
+
+    <!-- =========================================================
+         ÚVODNÍ ČÁST
+         Vyměň obrázek images/hero.jpg za vlastní titulní fotografii.
+         ========================================================= -->
+    <header class="hero">
+        <img src="images/uvodka_upraveno.png" alt="Jan Havlasa">
+        <div class="hero-overlay">
+            <h1>Jan Havlasa</h1>
+            <p>Vydejte se po stopách cestovatele Jana Havlasy</p>
+        </div>
+    </header>
+
+    <main>
+        <aside class="side-menu">
+            <a href="#top" class="side-menu-title">
+                <h2>Jan Havlasa</h2>
+                <p>1883 - 1964</p>
+            </a>
+            <nav class="chapter-menu">
+
+                <a href="#kapitola-1">
+                    <span class="chapter-year">1904</span>
+                    <span class="chapter-name">Studium</span>
+                </a>
+
+                <a href="#kapitola-2">
+                    <span class="chapter-year">1905-1909</span>
+                    <span class="chapter-name">Cestování po USA</span>
+                </a>
+
+                <a href="#kapitola-3">
+                    <span class="chapter-year">1910</span>
+                    <span class="chapter-name">Sňatek s Elsie</span>
+                </a>
+
+                <a href="#kapitola-4">
+                    <span class="chapter-year">1910</span>
+                    <span class="chapter-name">Svatební cesta</span>
+                </a>
+
+                <a href="#kapitola-5">
+                    <span class="chapter-year">1912</span>
+                    <span class="chapter-name">Cesta kolem světa</span>
+                </a>
+
+                <a href="#kapitola-6">
+                    <span class="chapter-year">1916</span>
+                    <span class="chapter-name">Protirakouský spis</span>
+                </a>
+
+                <a href="#kapitola-7">
+                    <span class="chapter-year">1920</span>
+                    <span class="chapter-name">Velvyslanec v Brazílii</span>
+                </a>
+
+                <a href="#kapitola-8">
+                    <span class="chapter-year">1926</span>
+                    <span class="chapter-name">Opiový komisař</span>
+                </a>
+
+                <a href="#kapitola-9">
+                    <span class="chapter-year">30. léta 20. století</span>
+                    <span class="chapter-name">Častá stěhování</span>
+                </a>
+
+                <a href="#kapitola-10">
+                    <span class="chapter-year">1943</span>
+                    <span class="chapter-name">Velvyslanec v Chile</span>
+                </a>
+
+                <a href="#kapitola-11">
+                    <span class="chapter-year">50. léta 20. století</span>
+                    <span class="chapter-name">Kalifornie</span>
+                </a>
+
+                <a href="#kapitola-12">
+                    <span class="chapter-year">1964</span>
+                    <span class="chapter-name">Zbytek života</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- =====================================================
+             KAPITOLY
+             Každá kapitola má:
+             - text
+             - audio
+             - fotogalerii
+             - tlačítko zpět na časovou osu
+
+             Pro další kapitolu celý <article> jednoduše zkopírujte
+             a změňte jeho id.
+             ===================================================== -->
+
+        <section class="chapters">
+
+            <article class="chapter" id="kapitola-1">
+
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            Narodil jsem se v roce 1883 v severočeských Teplicích. V roce 1904 mi je 21 let. Jsem 
+                            studentem filozofické fakulty, mám za sebou cesty po Čechách, Slovensku a Evropě. Publikuji 
+                            povídky z cest. Národní listy mi proto nabízí pozici neplaceného reportéra ze Světové výstavy 
+                            v Saint Luis ve Spojených státech Amerických.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>První tatranské povídky (titulka), léto 1901</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Úryvek z povídky Moře, Moře - První tatranské povídky, 1903-1904</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Kobzáňova horáreň na Podbansku, 1901-1904</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Literární příjmy Jana Havlasy, 1901-1902</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Pohlednice ze Saint Louis, 1904</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Světová výstava v Saint Louis, 1904</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Báseň Třesk šavlí, 1904</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Článek Jana Havlasy, 1905</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Cestování po Evropě a Světová výstava v Saint Luis
+                    </div>
+                </div>
+
+                <video controls>
+                    <source src="video/pokus.mp4" type="audio/mpeg">
+                    Váš prohlížeč nepodporuje přehrávání videa.
+                </video>
+                <div class="gallery-title">
+                    Videoukázka
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-2">
+
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            Po skončení výstavy zůstávám v USA a cestuji po Nebrasce, Kalifornii, Texasu a Arizoně. Zde 
+                        dokumentuji život krajanů.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>U poštovní schránky v prérii</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Krajani v Nebrasce, konec 19. století</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Na pláži Santa Monica, 1906</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Na cestě po USA, 1905-1906</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Pohlednice Univerzita Nebraska, 1909</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Cestování po USA
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Kvetoucí nopály, titulka</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Kvetoucí nopály, úryvek 1</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Kvetoucí nopály, úryvek 2</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Kvetoucí nopály, úryvek 3</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Kvetoucí nopály, Zlomky života 1904-1928, Jan Havlasa, vydání 1929
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-3">
+
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            Prosazuji myšlenky samostatného českého státu a díky tomu se seznamuji s rodinou Adolfa Hermana 
+                        z Los Angeles. A právě tato rodina se mi stává osudnou. Zamiloval jsem se totiž do dcery Adolfa 
+                        Hermana, do Elsie Hermanové. V roce 1910 s Elsie uzavírám sňatek.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Pohlednice z Los Angeles, 1910</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Aviatický den, Los Angeles, 1910</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>S rodinou Adolfa Hermana, 1907</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Výlet do Elysian parku, 1910</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Výlet s rodinou Hermanových do Arizony, 1910</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>V kraji věčného jara, 1909</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Jan a Elsie před domem v Los Angeles, 1909</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Novomanželé Havlasovi, 1910</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 9"><figcaption>Ateliérový portrét, 1910</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        S rodinou Adolfa Hermana a manželkou Elsie
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-4">
+
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            Na svatební cestu vyrážíme v tem samý rok na šest měsíců do Tichomoří.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Tahitská rodina francouzského úředníka, 1910</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Tahiti, 1910</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Tahiti, Jan Havlasa s fotoaparátem Kodak, 1910</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Ostrov Morea, Tahiti, 1910</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Ostrov Tahaa, 1910</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Cesta přes Tahiti k jezeru Vaihiria, 1910</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Pohlednice z Tahiti, malba Antonín Bruner, 1917</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Propast rozkoše, Jan Havlasa, 1929</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Svatební cesta v Tichomoří
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Úryvek z přednášky</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Úryvek z přednášky</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Úryvek z přednášky</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Úryvek z přednášky</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Úryvek z přednášky</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Přednáška Příroda a lidé na Tahiti
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-5">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         V roce 1912 vyplouváme na cestu kolem světa. Během roku jsme procestovali Japonsko, Čínu, 
+                        Malajsii, Vietnam, Indii a pořádný kus Evropy. Z námětů posbíraných zejména v Japonsku 
+                        vyšly později knihy Roztříštěná duha a Přízraky a zázraky. Zpět do Prahy se dostáváme v roce 1913.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Na lodi Persia cestou do Číny a Japonska, 1912</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Na okraji kráteru Fudži, 1912</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>U psacího stolu v Jokohamě, 1912</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Havlasovi v okně japonského venkovského hotelu, 1912</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Hora Nokogiri, Japonsko, 1912</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Článek v časopise Světozor, Jan Havlasa, 1927</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Indie, 1913</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Šanghaj, Čína, 1913</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 9"><figcaption>Roztříštěná duha, Jan Havlasa, 1932</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 10"><figcaption>Přízraky a zázraky, Jan Havlasa, 1934</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Cestování po jihovýchodní Asii
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Pohlednice</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>V Čechách, 1914</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Pozdrav českých spisovatelů z výletu, 1913</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Světlá nad Sázavou, 1914</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Na cestě kolem světa (1. část), Jan Havlasa, 1914</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Na cestě kolem světa (2. část), Jan Havlasa, 1914</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Sierrou Nevadou, Jan Havlasa, 1905</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        V Čechách
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Povídka Osm na krávě - část 1</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Povídka Osm na krávě - část 2</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Povídka Osm na krávě - část 3</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Povídka Osm na krávě - část 4</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Povídka Osm na krávě - část 5</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Povídka Osm na krávě, Jan Havlasa, 1914
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-6">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         V Čechách poté absolvuji roční přednáškové turné, naše zážitky z cest přetavuji v literární 
+                        zpracování. Zahájil jsem také studium přírodovědy na Karlově univerzitě. Politicky také dále 
+                        bojuji za vnik samostatného českého státu. Za protirakouský spis jsem roku 1916 odsouzen na 
+                        roční pobyt v žaláři.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Odstavec v Národních listech, 1913</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Pozvánka na přednášku, Dvůr Králové, 1913</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Úryvek z článku o přednáškách s promítáním, 1925</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Pozvánka na přednášku o Japonsku, 1917</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Úryvek z přednášky První dojmy v říši vycházejícího slunce, 1913</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Pozdrav z přednášky v Bystřici pod Hostýnem, 1913</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Pozdrav z přednášky v Uherském Hradišti, 1914</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Přednáškové turné po Čechách a Moravě
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Malajské léto (titulka), Jan Havlasa, 1926</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Malajské léto (úryvek 1), Jan Havlasa, 1926</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Malajské léto (úryvek 2), Jan Havlasa, 1926</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Vztah osadní politiky k světové válce (titulka), Jan Havlasa, 1914</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Vztah osadní politiky k světové válce (úvod), Jan Havlasa, 1914</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Pozvánka do Národního divadla, 1918</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Tvorba
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-7">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         Po vzniku samostatného Československa v roce 1918 jsem byl jmenován členem československé 
+                        delegace mírových jednání v Paříži. V roce 1920 pak se ženou odjíždíme na čtyři roky do 
+                        Brazílie. Zde jsem jmenován mimořádným vyslancem. Nevzdávám se ale ani tvorby románů. Stávám 
+                        se také velkým obdivovatelem brazilské přírody.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Služební přísaha</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Před palácem Catete, Rio de Janeiro, 1920</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Budova československé legace, Brazílie, 1920</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Manželé Havlasovi na terase legace, 1920</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Havlasovi na výletě ve Fazenda Atalaya, 1921</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Diplomatický sbor, Rio de Janeiro, 1920</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Nad pláží Copacabana, 20. léta 20. století</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Rio de Janeiro, 1922</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 9"><figcaption>Ferradora, Brazílie, 1922</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 10"><figcaption>Na výletě v okolí Rio de Janeira, 1921</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Mimořádným vyslancem v Brazílii
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Článek Československý vyslanec se loučí (1. část), 1924</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Článek Československý vyslanec se loučí (2. část), 1924</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Dopis od Emy Destinové (1. část), 1929</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Dopis od Emy Destinové (2. část), 1929</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Dopis od Emy Destinové (3. část), 1929</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Dopis od Dr. Františka Smotlachy, 1929</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Korespondence z konce 20. let
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-8">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                          Opiová komise, zřízená Společností národů v Ženevě, mě v roce 1929 oslovila, abych se stal 
+                        jedním z jejích komisařů. Na devět měsíců jsem tak odjel do východní Asie zkoumat problematiku 
+                        opia a jeho cesty do Evropy. Poprvé cestuji bez své ženy, denně ji ale píši.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Členové opiové komise, Mandžusko, 1929</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Opiová komise vyslýchá horníky, Indonésie, 1929</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Lékaři u stolů prohlížející kuřáky opia, 1929</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Kuřáci opia čekající na výslech, 1929</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Dřeváky na pašování opia, 1929</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Manila, Filipíny, 1930</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Za opiem kolem světa, Jan Havlasa, 1932</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Šek pro Jana Havlasu, 1929</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Členem Opiové komise
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Pohlednice z Batávie (dnešní Jakarta)</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Pohlednice z Barmy</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Pohlednice ze Singapuru, 1. část</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Pohlednice ze Singapuru, 2. část</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Korespondence s manželkou
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-9">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         Do začátku druhé světové války se s Elsii několikrát stěhujeme. Postupně bydlíme v Paříži, 
+                        Monaku a v Los Angeles.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>V bytě v Paříži, 30. léta 20. století</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Monako, 30. léta 20. století</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Reklama na díla Jana Havlasy</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Před začátkem druhé světové války
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="chapter" id="kapitola-10">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         Za války podporuji odbojové hnutí, exilovou vládu, pořádám přednášky a publikuji v krajanských 
+                        novinách. V roce 1943 jsem jmenován velvyslancem Československé republiky v Chile. I tam pokračuji 
+                        v práci pro odboj, sháním peníze pro Československý červený kříž i exilovou vládu v Londýně. Díky 
+                        dobré pověsti Československa mezi zahraničními diplomaty i vedením republiky Chile se první pokus 
+                        o mé odvolání ze strany prezidenta Beneše nezdařil. Definitivně jsem byl odvolán až v roce 1947.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>S prezidentem Chile, 1943</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Santiago de Chile, 1943</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Hranice Argentiny a Chile, 1943-1947</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Jezero a sopka Villarica, Chile, 1943-1947</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Projev k 60. narozeninám Edvarda Beneše, 1944</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Park Lidice, Santiago de Chile, 1944</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Park Lidice, Santiago de Chile, 1944</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Diplomatický sbor, Santiago de Chile, 1943-1947</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 9"><figcaption>Manželé Havlasovi v přístavu, 40. léta 20. století</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Velvyslancem v Chile
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Diplomatický pas Jana Havlasy, 1944</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Jmenování do funkce, 1943</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Korespondence rodině, 40. léta 20. století</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Korespondence s bratrem Vladimírem, členem exilové vlády, 1944</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Telegram, 1945</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Dopis předsedům vlády a poslanecké sněmovny - 1. část, 1947</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Dopis předsedům vlády a poslanecké sněmovny - 2. část, 1947</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Koncept článku, 1944</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Doklady a korespondence během 2. sv. války
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-11">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                            Po válce jsme se se ženou usadili ve Spojených státech. Oba jsem cítili zklamání z poválečného 
+                        směřování československé politiky. V Americe mi odmítali vydat občanství, mohl jsem zde ale 
+                        zůstat díky americkému občanství mé ženy Elsie. Pokračuji v literární tvorbě a se ženou cestuji 
+                        po národních parcích Kalifornie.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Poušť Colorado, 1954</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Sierra Nevada, 1955</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Pohoří San Gabriel Mountains, 1956</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Sierra Nevada, 1955</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Dům manželů Havlasových v Los Angeles, 1948</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Ve svém domě, 1953</figcaption></figure>
+                        <figure><img src="images/text02/3.png" alt="Obrázek 7"><figcaption>Před domem Havlasových v Los Angeles, 1955</figcaption></figure>
+                        <figure><img src="images/text02/4.jpg" alt="Obrázek 8"><figcaption>Maketa cestovního deníku, 50. léta 20. století</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Cestování po národních parcích Kalifornie
+                    </div>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Věčně mladý Jan Havlasa sedmdesátníkem, 1. část</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Věčně mladý Jan Havlasa sedmdesátníkem, 2. část</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Věčně mladý Jan Havlasa sedmdesátníkem, 3. část</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Věčně mladý Jan Havlasa sedmdesátníkem, 4. část</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Zapomněli jsme?</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Články Karla Domina a A. C. Nora
+                    </div>
+                </div>
+            </article>
+
+            <article class="chapter" id="kapitola-12">
+                <div class="chapter-with-audio">
+
+                    <button class="audio-button" aria-label="Přehrát audio">
+                        🔊
+                    </button>
+
+                    <div class="chapter-text"> 
+                        <p> 
+                         Po smrti své manželky v roce 1957 se uzavírám před světem ve svém domě. Výjimečně se setkávám 
+                        a koresponduji s několika přáteli. Sepisuji také své vzpomínky.
+                        </p> 
+                    </div>
+
+                    <audio class="chapter-audio">
+                        <source src="audio/audio_pokus.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="gallery-block"></div>
+                    <div class="gallery">
+                        <figure><img src="images/text01/1.jpg" alt="Obrázek 1"><figcaption>Jan Havlasa, 1958</figcaption></figure>
+                        <figure><img src="images/text01/2.png" alt="Obrázek 2"><figcaption>Jan Havlasa, 1958</figcaption></figure>
+                        <figure><img src="images/text01/3.jpg" alt="Obrázek 3"><figcaption>Jan Havlasa, 1958</figcaption></figure>
+                        <figure><img src="images/text01/4.jpg" alt="Obrázek 4"><figcaption>Obálka z korespondence, 1959</figcaption></figure>
+                        <figure><img src="images/text02/1.jpg" alt="Obrázek 5"><figcaption>Článek o smrti Jana Havlasy, LA Times, 1964</figcaption></figure>
+                        <figure><img src="images/text02/2.jpg" alt="Obrázek 6"><figcaption>Nekrolog, 1964</figcaption></figure>
+                    </div>
+
+                    <div class="gallery-title">
+                        Poslední léta
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Jan Havlasa – interaktivní příběh</p>
+    </footer>
+
+
+        <!-- =========================================================
+     LIGHTBOX
+     ========================================================= -->
+
+    <div class="lightbox" id="lightbox">
+
+        <!-- Zavření -->
+        <button class="lightbox-close" id="lightbox-close">
+            &times;
+        </button>
+
+        <!-- Předchozí -->
+        <button class="lightbox-prev" id="lightbox-prev">
+            &#10094;
+        </button>
+
+        <!-- Fotografie -->
+        <img class="lightbox-image" id="lightbox-image" src="" alt="">
+
+        <!-- Následující -->
+        <button class="lightbox-next" id="lightbox-next">
+            &#10095;
+        </button>
+
+        <!-- Popisek -->
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+
+    </div>
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
