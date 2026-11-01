@@ -383,6 +383,7 @@ body::after { right: 0; }
     font-weight: bold;
     font-size: 17px;
     text-align: center;
+    background: #014911;
 }
 
 
@@ -480,7 +481,10 @@ footer {
         gap: 5px;
     }
 
-    .gallery figcaption { font-size: 12px; }
+    .gallery figcaption { 
+        font-size: 12px;
+    }
+
     .lightbox-prev { left: 8px; }
     .lightbox-next { right: 8px; }
 }
